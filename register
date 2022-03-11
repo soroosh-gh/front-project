@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Register</title>
+</head>
+<body>
+    <form action="register.php" method="post">
+        <h1>ثبت نام</h1>
+        <label for="name">نام و نام خانوادگی</label>
+        <br>
+            <input type="text" id="name" name="name">
+        <br>
+           <label for="username">نام کاربری</label>
+        <br>
+          <input id="username" name="username"></input>
+        <br>
+            <label for="password">کلمه عبور</label>
+        <br>
+            <input type="password" id="password" name="password">
+        <br>
+            <label for="idcode">کد ملی</label>
+        <br>
+            <input type="text" id="idcode" name="idcode">
+        <br>
+            <button type="submit">تایید</button>
+        <br>
+            <button type="reset">لغو</button>
+        
+    
+    </form>
+</body>
+</html>
+
+
+/////
+
+<?php
+$name = $_POST['name'];
+$username = $_POST['username'];
+$pass = $_POST['password'];
+$idcode = $_POST['idcode'];
+
+$dbc = new mysqli ('localhost' , 'root' ,'', 'members');
+$sql = "INSERT INTO membersinfo( name , username , password , idcode) VALUES ('$name' , '$username' , '$pass' , 'idcode')";
+$result = $dbc -> query ($sql);
+$dbc -> close();
+echo 'done';
+?>
