@@ -1,0 +1,51 @@
+
+        .main{
+            background-color: var(--formbg);
+            margin: 10% 40% 20% 40%;
+            text-align: right;
+            font-family: B Traffic;
+
+            border-radius: 15px;
+            color: var(--primary);
+            font-size: 19px;
+            padding:  10px 30px 20px 30px;
+        }
+
+        input
+        {
+            border: none;
+            width: 23em;
+            text-align: right;
+            height: 2em;
+            padding: 10px;
+            font-family: B Traffic;
+            
+            border-radius: 10px;
+        }
+        textarea{ 
+            border-radius: 15px;
+            padding: 10px;
+            height: 7em;
+            width: 23em;
+            text-align: right;
+            font-family: B Traffic;
+        }
+       .label{
+             font-size: large;
+            text-align: right;
+        }
+        *{
+            caret-color: var(--primary);
+        }
+        select
+        {
+            border: none;
+            border-radius: 10px;
+            width: 8em;
+            text-align: right;
+            height: 3em;
+            padding: 10px;
+            color: black;
+            font-family: B Traffic;
+            font-weight: bold;
+        }
