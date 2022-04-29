@@ -1,0 +1,10 @@
+@import url(formstyle.css);
+@import url(btn.css);
+body{
+direction: rtl;
+text-align: right;
+}
+:root{
+    --primary : #6750A4;
+    --formbg :#FFD524 ;
+    }
