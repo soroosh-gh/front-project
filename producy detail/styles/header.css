@@ -1,0 +1,67 @@
+:root
+{
+    --darck-blue:#151E27;
+     --middarck-blue:#1D2733;
+      --light-blue:#293849;
+      --yellow:#E89C31;
+}
+.header-main {
+    overflow: hidden;
+    width: 100%;
+    margin: 0px;
+    background-color: var(--light-blue);
+    padding: 0px 10px 20px 0px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    overflow: hidden;
+}
+
+.header-main a {
+    float: right;
+    color: black;
+    text-align: right;
+    padding: 12px;
+    text-decoration: none;
+
+}
+
+.slogo
+{
+    margin-top: 15px;;
+}
+
+.header-left {
+    float: left;
+    text-align: right;
+    margin:30px 0px 0px 30px;   
+}
+.search-box
+{
+    border: 1px solid #252525;
+    background-color: var(--darck-blue);
+    padding: 10px;
+    border-radius: 25px;
+    text-align: right;
+    margin: 10px;
+
+}
+.search-bar
+{
+    border: none;
+    outline: none;
+    width: 250px;
+    height: 30px;
+    margin-left: 5px;
+    text-align: right;
+    color: var(--light-blue);
+ font-family: Shabnam;
+    background-color: var(--darck-blue);
+
+}
+.search-box i 
+{
+   color: #e7e7e7;
+   margin-left: 5px;
+   margin-right: 5px;
+}

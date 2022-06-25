@@ -1,0 +1,12 @@
+/*header*/
+@import url(header.css);
+/*sidebar*/
+@import url(sidebar.css);
+/*body*/
+@import url(body.css);
+/*footer*/
+@import url(footer.css);
+/*others styles(aboutus, contact ...)*/
+@import url(others.css);
+/*tables*/
+@import url(tables.css);

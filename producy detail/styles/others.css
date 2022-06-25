@@ -1,0 +1,417 @@
+:root {
+    --darck-blue: #151E27;
+    --middarck-blue: #1D2733;
+    --light-blue: #293849;
+    --yellow: #E89C31;
+}
+
+/*about us*/
+.bg {
+    background-color: var(--darck-blue);
+
+}
+
+.main-about {
+    background-color: var(--darck-blue);
+    align-items: center;
+    width: 80%;
+    direction: rtl;
+    padding-top: 30px;
+    margin-top: 120px;
+    padding-bottom: 235px;
+
+}
+
+.card {
+    width: 375px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 15px;
+    background-color: #e7e7e7
+}
+
+.card img {
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.title {
+    font-family: Shabnam;
+    font-weight: bolder;
+    font-size: 16px;
+    color: var(--yellow);
+    margin: 5px 0px 5px 0px;
+}
+
+.info {
+    color: var(--middarck-blue);
+    font-family: Dosis;
+    text-align: center;
+    font-size: 12px;
+}
+
+.fa-instagram {
+    background: var(--yellow);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.fa-twitter {
+    text-decoration: none;
+    background: #55ACEE;
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+/*contact us*/
+.bg {
+    background-color: var(--darck-blue);
+    margin-top: 120px;
+}
+
+.contact-main {
+    background-color: var(--darck-blue);
+    align-items: center;
+    width: 80%;
+    direction: rtl;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+form {
+    width: 800px;
+    padding: 20px;
+}
+
+h3 {
+    font-family: Shabnam;
+    font-weight: bolder;
+    padding: 15px 15px;
+    color: var(--yellow);
+}
+
+.form {
+    background-color: var(--light-blue);
+    width: 800px;
+    border-radius: 10px;
+    text-align: right;
+}
+
+.form label {
+    font-family: Shabnam;
+    text-align: right;
+    color: #e7e7e7;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.form input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: Shabnam;
+    text-align: right;
+    font-size: 18px;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    width: 80px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px 0px 0px 15px;
+}
+
+input[type=submit]:hover {
+    background-color: #1bdd96;
+    color: white;
+
+}
+
+input[type=reset] {
+    background-color: #aa1d04;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 150px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 80px;
+    margin: 5px 0px 0px 15px;
+}
+
+input[type=reset] :hover {
+    background-color: #cc543f;
+    color: white;
+
+}
+
+.signup {
+    background-color: var(--yellow);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    text-decoration: none;
+    font-family: Shabnam;
+    font-weight: bold;
+    font-size: 16px;
+    width: 80px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px 0px 0px 15px;
+}
+
+.signup:hover {
+    background-color: #f8b455;
+    color: white;
+
+}
+
+/*login*/
+
+
+
+.form-main {
+    width: 100%;
+    padding: 20px;
+}
+
+h3 {
+    font-family: Shabnam;
+    font-weight: bolder;
+    padding: 15px 15px;
+    color: var(--yellow);
+}
+
+.form-login {
+    background-color: var(--light-blue);
+    width: 550px;
+    border-radius: 10px;
+    text-align: right;
+}
+
+.form-login label {
+    font-family: Shabnam;
+    text-align: right;
+    color: #e7e7e7;
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+
+.input-erea input {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: Shabnam;
+    text-align: left;
+    font-size: 18px;
+}
+
+.submit {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    width: 80px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px 0px 0px 15px;
+    font-family: Shabnam;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.submit:hover {
+    background-color: #056843;
+    color: white;
+
+}
+
+.reset {
+    background-color: #aa1d04;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 150px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 80px;
+    margin: 5px 0px 0px 15px;
+    font-family: Shabnam;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.reset:hover {
+    background-color: #94301e;
+    color: white;
+
+}
+
+.login-main {
+    background-color: var(--darck-blue);
+    align-items: center;
+    width: 80%;
+    direction: rtl;
+    padding-top: 30px;
+    padding-bottom: 305px;
+}
+
+/*broduct detail*/
+.main-detail {
+    margin-top: 120px;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+
+}
+
+.main-detail img {
+    height: 25%;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.detail-card {
+    width: 875px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px 5px 15px 5px;
+    margin: 15px 430px;
+    background-color: #e7e7e7
+}
+
+.detail-card .title {
+    font-family: Shabnam;
+    font-weight: bolder;
+    font-size: 26px;
+    color: var(--yellow);
+    margin: 5px 0px 5px 0px;
+}
+
+.detail-card .info {
+    color: var(--middarck-blue);
+    font-family: Dosis;
+    text-align: center;
+    font-size: 20px;
+}
+
+.detail-card .shop {
+    margin: 20px 20px 20px 20px;
+    padding: 2px 25px 2px 25px;
+    color: var(--light-blue);
+    text-decoration: none;
+    font-family: Shabnam;
+    font-weight: bold;
+}
+
+.shop-detail {
+    color: var(--middarck-blue);
+    font-weight: bold;
+    background-color: var(--yellow);
+    border-radius: 20px;
+    height: 30px;
+    width: 100%;
+    padding: 5px 50px 10px 50px;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.notif {
+    text-align: center;
+    font-family: Shabnam;
+
+}
+
+/*order*/
+.form-order {
+    background-color: var(--light-blue);
+    width: 90%;
+    border-radius: 10px;
+    text-align: right;
+}
+
+.order-main {
+    background-color: var(--darck-blue);
+    align-items: center;
+    width: 80%;
+    direction: rtl;
+    padding-top: 30px;
+    padding-bottom: 305px;
+}
+
+
+.readonly {
+    background-color: lightgray;
+    font-family: Shabnam;
+    text-align: center;
+}
+
+.edit-main {
+    background-color: var(--darck-blue);
+    align-items: center;
+    width: 80%;
+    margin-top: -22px;
+    font-family: Shabnam;
+    direction: rtl;
+    padding-top: 30px;
+    color: white;
+    padding-bottom: 305px;
+}
+
+.edit-main .submit {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    width: 80px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px 0px 0px 15px;
+}
+
+.edit-main .submit:hover {
+    background-color: #1bdd96;
+    color: white;
+
+}
+
+.edit-main .reset {
+    background-color: #aa1d04;
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 250px;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 80px;
+    margin: 5px 0px 0px 15px;
+}
+
+.edit-main .reset :hover {
+    background-color: #cc543f;
+    color: white;
+
+}

@@ -1,0 +1,25 @@
+
+:root
+{
+    --darck-blue:#151E27;
+     --middarck-blue:#1D2733;
+      --light-blue:#293849;
+      --yellow:#E89C31;
+}
+.footer
+{
+    width: 100%;
+    height: 80px;
+    background-color:var(--yellow) ;
+
+    bottom: 0;
+}
+.author
+{
+    padding: 20px 10px 0px 0px; 
+    text-align: center;
+    font-family: Shabnam;
+    font-weight: light;
+    color:#303030;
+
+}

@@ -1,0 +1,93 @@
+:root {
+    --darck-blue: #151E27;
+    --middarck-blue: #1D2733;
+    --light-blue: #293849;
+    --yellow: #E89C31;
+}
+
+body {
+    background-color: var(--darck-blue);
+
+}
+
+.background {
+    background-color: var(--darck-blue);
+}
+
+.main {
+    background-color: var(--darck-blue);
+    text-align: right;
+    display: flex;
+    width: 80%;
+    direction: rtl;
+    padding-top: 30px;
+    margin-top: 120px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.product-item {
+    background-color: #e7e7e7;
+    text-align: center;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.product-item img {
+    height: 250px;
+    margin-top: 2px;
+    border-radius: 10px;
+    width: 95%;
+}
+
+/* .main div:hover
+{
+    background-color: #eeeeee;
+    transition-duration: 0.5s;
+} */
+.book-title {
+    font-family: Shabnam;
+    margin-top: 10px;
+    font-weight: bolder;
+    color: var(--yellow);
+
+}
+
+.description {
+    font-family: Shabnam;
+    text-align: right;
+    width: 320px;
+    height: 40px;
+    color: var(--darck-blue);
+    padding: 10px;
+
+}
+
+.shop {
+    background-color: var(--yellow);
+    border-radius:0px 0px 20px 20px;
+    height: 30px;
+    width: 100%;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.shop:hover {
+    background-color: #f58f00;
+    transition-duration: 0.5s;
+}
+
+.shop-button {
+    padding: 2px 25px 2px 25px;
+    color: var(--light-blue);
+    text-decoration: none;
+    font-family: Shabnam;
+    font-weight: bold;
+}
+
+.shop-button:hover {
+    color: var(--light-blue);
+    text-decoration: none;
+    font-family: Shabnam;
+    font-weight: bold;
+}
